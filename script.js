@@ -3,7 +3,7 @@
 var output = document.getElementById("output");
 var message = document.getElementById("message");
 var send = document.getElementById("send");
-var constraints = { video : true };
+var constraints = { video : true, Audio : true};
 
 var peer = new Peer({key: 'lwjd5qra8257b9'});
 
